@@ -1,4 +1,4 @@
-@btn-border: 1px solid @button-border-color;
+@btn-border: 0px solid @button-border-color;
 @btn-padding: 0 @ui-size/1.25;
 
 .btn-default (@color, @hover-color, @selected-color, @text-color) {
@@ -122,6 +122,7 @@
 
 .btn-group > .btn {
   z-index: 0;
+  border: @btn-border;
   &:hover {
     z-index: 0;
   }
