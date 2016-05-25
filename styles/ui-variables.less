@@ -31,7 +31,7 @@
 
 // Main colors -----------------
 @ui-fg:     hsl(@ui-hue, min(@ui-saturation, 18%), max(@ui-lightness*3, 66%) );
-@ui-bg:     hsl(@ui-hue, @ui-saturation, @ui-lightness); // normalized @syntax-background-color
+@ui-bg:     #263238; // normalized @syntax-background-color
 @ui-border: hsl(@ui-hue, @ui-saturation, @ui-lightness-border);
 
 
@@ -50,17 +50,17 @@
 @text-color-highlight:  lighten(@text-color, 20%);
 @text-color-selected:   white;
 
-@text-color-info:    hsl(219,  79%, 66%);
+@text-color-info:    #9da5b4;
 @text-color-success: hsl(140,  44%, 62%);
 @text-color-warning: hsl( 36,  60%, 72%);
 @text-color-error:   hsl(  9, 100%, 64%);
 
 
 // Background -----------------
-@background-color-info:    hsl(208, 100%, 50%);
+@background-color-info:    hsl(198,  70%, 70%);
 @background-color-success: hsl(160,  70%, 42%);
-@background-color-warning: hsl(32,   60%, 50%);
-@background-color-error:   hsl(0,    70%, 50%);
+@background-color-warning: hsl( 32,  60%, 50%);
+@background-color-error:   hsl(  0,  70%, 50%);
 
 @background-color-highlight: lighten(@base-background-color, 4%);
 @background-color-selected:  lighten(@base-background-color, 8%);
@@ -145,7 +145,7 @@
 
 @text-color-added:    @text-color-success;  // green
 @text-color-ignored:  @text-color-subtle;   // faded
-@text-color-modified: @text-color-warning;  // orange
+@text-color-modified: #D3643B;  // orange
 @text-color-removed:  @text-color-error;    // red
 @text-color-renamed:  @text-color-info;     // blue
 

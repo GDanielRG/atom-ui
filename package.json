@@ -9,7 +9,7 @@
     "space"
   ],
   "license": "MIT",
-  "repository": "https://github.com/leo/material-ui",
+  "repository": "https://github.com/GDanielRG/atom-ui",
   "engines": {
     "atom": ">=1.6.0"
   }
