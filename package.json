@@ -1,5 +1,5 @@
 {
-  "name": "atom-ui",
+  "name": "harmony-ui",
   "theme": "ui",
   "version": "1.0.9",
   "description": "A minimal UI inspired by Google's Material design guide",
@@ -9,7 +9,7 @@
     "space"
   ],
   "license": "MIT",
-  "repository": "https://github.com/GDanielRG/atom-ui",
+  "repository": "https://github.com/GDanielRG/harmony-ui",
   "engines": {
     "atom": ">=1.6.0"
   }
