@@ -1,5 +1,7 @@
 ## Harmony UI
 
+Harmony theme for Atom inspired in Google's Material Design complements with <a href="https://github.com/GDanielRG/harmony-syntax"> this syntax theme </a>
+
 This theme converts Atom into a good looking and minimal editor without unnecessary clutter. Although it was inspired by Google's Material design, it's not completely based on the same. There are some places in which I've decided to make some decisions by my own to make the design look less haptic, and then Daniel modified it even more.
 
 <a href="https://i.gyazo.com/728b76a7b48cb23fe937db37a42bf81a.png" target="_blank">
